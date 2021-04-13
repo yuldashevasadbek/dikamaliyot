@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.max{
+   
+    max-width: 1100px;
+    margin: auto;
+}
+.boshqismi{
+    position: sticky;
+    top:0;
+    background-color: rgb(69, 49, 94);
+    color: azure;
+    overflow: auto;
+}
+.em{
+    font-size: larger;
+    float: left;
+}     
+
+.boshqismi ul{
+    
+    float: right;
+    margin-left:300px;
+}
+.boshqismi ul li{
+    
+    float: left;
+}
+.boshqismi ul li a {
+    display:inline-block;
+    padding: 25px;
+}
+.boshqismi ul li a:hover , .boshqismi ul li a.boshqismi{
+    color: bisque;
+    border-radius: 13px;
+    background-color: rgb(76, 15, 151);
+}
+.boshqismi a{
+    padding: 25px;
+    color: azure   ;
+}
+p{
+    margin: 10px 0;
+}
+.asosiy{
+    padding-top: 250px;
+    text-align: center;
+    min-height: 630px;
+    background-image: url("1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.asosiy h1{
+    color: azure;
+    background-color: rgb(69, 49, 94);
+    font-size: 40px;
+    padding: 12px;
+}
+.asosiy p{
+    margin-top: 50px;
+    padding: 9px;
+    background-color: #e6e6ff;
+}
+.katalog{
+    position: relative;
+    color: azure;
+    text-align: center;
+    background-color: rgb(69, 49, 94);
+}
+.box1{
+    display: flex;
+    justify-content: space-around;
+
+}
+h4{
+    text-align: center;
+    padding: 10px;
+
+}
+.us{
+    position: relative;
+    padding: 60px 0;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color:rgb(152, 219, 178);
+}
+.us1{
+    
+    padding: 15px; 
+    border-radius: 15px;
+    background-color: rgb(69, 49, 94);
+    margin:0 80px;
+}
+.us2{
+    padding: 15px;
+    border-radius: 15px;
+    margin:0 80px;
+    background-color: rgb(69, 49, 94);
+}
+.us3{
+    padding: 15px;
+    border-radius: 15px;
+    margin:0 80px;
+    background-color: rgb(69, 49, 94);
+}
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+
+  input[type=submit] {
+    background-color: rgb(69, 49, 94);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: rgb(69, 49, 94);
+  }
+
+  .container1 {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
